@@ -12,6 +12,6 @@ def append(self, data):
         self.head = new_node # make the new node the head
         return
     current = self.head #start at the first node
-    while current.next:
+    while current.next: # move to the last node
         current = current.next
     current.next = new_node 
