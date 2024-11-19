@@ -11,7 +11,7 @@ def append(self, data):
     if not self.head: # if the list is empty
         self.head = new_node # make the new node the head
         return
-    current = self.head
+    current = self.head #start at the first node
     while current.next:
         current = current.next
     current.next = new_node 
