@@ -21,3 +21,7 @@ def append(self, data):
 
     def display(self):
         current = self.head #start at the head
+        while current:
+            print(current.data, end="->") #print the data
+            current = current.next #move to the next node
+        pr
