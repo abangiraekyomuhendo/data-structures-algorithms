@@ -18,3 +18,6 @@ def append(self, data):
 
 
     #display the list
+
+    def display(self):
+        current = self.head #start at the head
