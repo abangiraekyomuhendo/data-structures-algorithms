@@ -15,3 +15,6 @@ def append(self, data):
     while current.next: # move to the last node
         current = current.next
     current.next = new_node # link the new node
+
+
+    #display the list
