@@ -14,4 +14,4 @@ def append(self, data):
     current = self.head #start at the first node
     while current.next: # move to the last node
         current = current.next
-    current.next = new_node 
+    current.next = new_node # link the new node
