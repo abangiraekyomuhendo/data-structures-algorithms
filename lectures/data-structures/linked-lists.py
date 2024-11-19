@@ -24,4 +24,4 @@ def append(self, data):
         while current:
             print(current.data, end="->") #print the data
             current = current.next #move to the next node
-        pr
+        print("None") #end of the list
