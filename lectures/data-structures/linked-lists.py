@@ -7,7 +7,7 @@ class Node:
 
 
 def append(self, data):
-    new_node = Node(data) 
+    new_node = Node(data) # Creating new node
     if not self.head:
         self.head = new_node
         return
