@@ -21,3 +21,5 @@ s.append('Third')
 s.append('Fourth')
 
 #to get the last (so fourth)
+
+s.pop() # this will give us the last item that we added, so 'Fourth" 
