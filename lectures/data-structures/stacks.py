@@ -9,7 +9,15 @@
 #class: list, collections.deque, queue.LifoQueue
 
 
-stk = deque()
-stk.append(5)
-stk.append(9)
-stk.pop() #returns 89
+# stk = deque()
+# stk.append(5)
+# stk.append(9)
+# stk.pop() #returns 89
+
+s = []
+s.append('First')
+s.append('Second')
+s.append('Third')
+s.append('Fourth')
+
+#to get the last (so fourth)
