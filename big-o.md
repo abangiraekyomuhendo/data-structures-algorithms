@@ -3,7 +3,7 @@ Big O notation is a way of describing how the time or space requirements of an a
 
 ###### Some Big O notations:
 1. O(1) - Constant Time
-   - no matter how bug the input is, the time it takes doesn't change
+   - no matter how big the input is, the time it takes doesn't change
    - for example, looking at the first item in a list. It's just one step, regardless of how many items are below it. So it will be constant at all times. 
 2. O(log n) - Logarithmic Time 
    - The time grows slowly even as the input size grows large. 
