@@ -4,3 +4,12 @@
 
 #Use cases for stack
 # - Functin calling in any programming language is managed by stack. - Undo (Ctrl+Z) functionality in any editor uses stack to track down last set of operations
+
+
+#class: list, collections.deque, queue.LifoQueue
+
+
+stk = deque()
+stk.append(5)
+stk.append(9)
+stk.pop() #returns 89
