@@ -24,7 +24,7 @@ Big O notation is a way of describing how the time or space requirements of an a
 - Example: Solving certain complex problems, like the Traveling Salesman Problem.
 - E.g: Suppose every time you make a choice, it doubles the possible paths you could take. Very quickly, the number of possibilities becomes enormous.
 
-###### Summary
+#### Summary
 
 Big O notation helps us classify algorithms based on how they scale with input size:
 
