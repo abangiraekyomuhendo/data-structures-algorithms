@@ -65,3 +65,16 @@ def binary_search(arr, target):
 # Example
 nums = [10, 20, 30, 40, 50]
 print(binary_search(nums, 30))  # Output: 2
+
+
+
+
+
+
+When to Use Each Algorithm:
+Linear Search: Good for unsorted lists or when you don’t need efficiency.
+Binary Search: Best for sorted lists; very efficient.
+Bubble Sort, Selection Sort, Insertion Sort: Simple but inefficient for large lists (O(n^2)). They can be good for small or nearly sorted data.
+Merge Sort: Efficient for large lists and guarantees O(n log n) time complexity.
+Quick Sort: Very efficient on average for large datasets but needs to be carefully implemented to avoid worst-case performance.
+
