@@ -32,3 +32,5 @@ Big O notation helps us classify algorithms based on how they scale with input s
 - **Slower** (like O(n²), O(2ⁿ)) algorithms are generally impractical for large inputs.
 
 Big O notation gives us a rough idea of an algorithm’s efficiency — how it handles scaling up — by focusing on its most significant growth rate.
+
+testing
